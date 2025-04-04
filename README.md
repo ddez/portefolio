@@ -117,3 +117,9 @@ puis dans le fichier package.json , dans la section "scripts", ajouter l'entrée
 cd [NOM-DU-PROJET]
 npm run format
 ```
+
+## RAPPELS GIT
+
+git add .
+git commit -m "Un commentaire"
+git push origin main
