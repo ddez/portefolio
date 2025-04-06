@@ -1,8 +1,11 @@
+import Accueil from "./components/Accueil.jsx";
+import Header from "./components/Header.jsx";
 function App() {
   return (
     <>
       <div>
-        <h1>Vite + React</h1>
+        <Header />
+        <Accueil />
       </div>
     </>
   );

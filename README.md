@@ -1,5 +1,7 @@
 # Portfolio
 
+## Objectifs
+
 Votre mission est de créer un portfolio en utilisant React et d'implémenter différentes sections essentielles, tout en pratiquant la manipulation de React avec Vite.js, l'utilisation de React Bootstrap, la création de composants fonctionnels, le passage de props, la structuration d’un projet React et l’intégration de librairies externes.
 
 ## Consigne
@@ -104,12 +106,14 @@ import { createRoot } from 'react-dom/client'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import App from './App.jsx'
 ```
+
 ## Installation de Prettier
 
 ```BASH
 cd [NOM-DU-PROJET]
 npm install --save-dev --save-exact prettier
 ```
+
 puis dans le fichier package.json , dans la section "scripts", ajouter l'entrée:
 "format": "prettier --write ."
 

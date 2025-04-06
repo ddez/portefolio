@@ -2,25 +2,29 @@
 
 - [x] Créer un nouveau repos
 - [x] Cloner le repos
-- [x] initier un nouveau projet React
+- [x] Initier un nouveau projet React
 - [x] Nettoyer le fichier
-- [x] installer Bootstrap
-- [x] installer Prettier
+- [x] Installer Bootstrap
+- [x] Installer Prettier
 - [x] Créer le dossier components/
-- [x] premier commit
+- [x] Premier commit
 
 # DEVELOPPEMENT
 
 - [ ] Création des components
-    - [ ] Accueil.jsx : Introduction, nom, fonction, message d’accueil.
-    - [ ] Projets.jsx : Titre, description, technologies utilisées, lien vers le code ou une démo.
-    - [ ] APropos.jsx : Brève présentation personnelle, parcours, motivations.
-    - [ ] Formation.jsx : : Diplômes, certifications ou formations suivies.
-    - [ ] Competences.jsx : Liste de compétences techniques (langages, outils, frameworks, niveau…) 10 minimums.
-    - [ ] Contact : Informations de contact (email et/ou téléphone).
+
+    - [ ] Demandés :
+        - [ ] Accueil.jsx : Introduction, nom, fonction, message d’accueil.
+        - [ ] Projets.jsx : Titre, description, technologies utilisées, lien vers le code ou une démo.
+        - [ ] APropos.jsx : Brève présentation personnelle, parcours, motivations.
+        - [ ] Formation.jsx : : Diplômes, certifications ou formations suivies.
+        - [ ] Competences.jsx : Liste de compétences techniques (langages, outils, frameworks, niveau…) 10 minimums.
+        - [ ] Contact : Informations de contact (email et/ou téléphone).
+    - [ ] Optionels:
+        - [ ] Header.jsx : barre de navigation
 
 - [ ] Importer l'ensemble dans le fichier App.js
 
-# DEPLOIMENT SUR NETLIFY
+# DEPLOIEMENT SUR NETLIFY
 
 - [ ] En ligne sur : ...netlify.app
