@@ -1,0 +1,22 @@
+1) 2025-04-06
+    - Diverses correction minimes
+    - ajout dossier 
+	    - components/
+	    - styles/
+    - Ajout components (uniquement la mise en place): 
+	    - Accueil
+		    - Banner
+		- Header
+		- Projets
+		- APropos
+		- Formation
+		- Competences
+		- Contact 
+	- Ajout fichiers CSS
+		- Accueil.css
+		- colors.css
+	- MAJ du fichier App.jsx
+	- réorganisation du dossier public:
+		- création du dossier img
+		- création du dossier logos
+	-  Ajout de quelques données fictives dans les components demandés.
