@@ -21,6 +21,7 @@ function App() {
         <hr />
         <Competences />
         <hr />
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et similique accusantium voluptates cupiditate alias ea cumque enim aut accusamus aliquid nam aliquam magni quis voluptatem, odit minima quisquam? Odit, libero!</p>
         <Contact />
       </div>
     </>
