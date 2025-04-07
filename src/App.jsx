@@ -1,3 +1,4 @@
+import siteData from './data/siteData.json';
 import Accueil from "./components/Accueil.jsx";
 import Header from "./components/Header.jsx";
 import Projets from "./components/Projets.jsx";
@@ -11,7 +12,7 @@ function App() {
     <>
       <div>
         <Header />
-        <Accueil />
+        <Accueil siteTitle={siteData.siteTitle} author={siteData.author.fullName} authorFunction={siteData.authorFunction} />
         <hr />
         <Projets />
         <hr />

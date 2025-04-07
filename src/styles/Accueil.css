@@ -5,6 +5,20 @@
     font-size: 2em;
     text-align: center;
     margin: 0.3em 0;
-    color : var(--cadet-gray);
+    color : var(--dark-purple);
 }
+
+.dd-subtitle{
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0.3em 0;
+    color : var(--bittersweet-shimmer);
+}
+
+.dd-text{
+    font-size: 1.2em;
+    text-align: center;
+    margin: 0.3em 0;
+    color : var(--paynes-gray);
+}   
 

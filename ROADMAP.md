@@ -17,7 +17,7 @@
         - [ ] Accueil.jsx : Introduction, nom, fonction, message d’accueil.
 	        - [x] base
 	        - [x] data
-	        - [ ] mise en forme de base
+	        - [x] mise en forme de base
         - [ ] Projets.jsx : Titre, description, technologies utilisées, lien vers le code ou une démo.
 	        - [x] base
 	        - [x] data

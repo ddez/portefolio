@@ -1,0 +1,13 @@
+{
+    "siteTitle": "Portfolio de Julien Morel",
+    "author": {
+      "firstName": "Julien",
+      "lastName": "Morel",
+      "fullName": "Julien Morel"
+    },
+    "authorFunction": "Développeur web",
+    "tagline": "Développeur web passionné et créatif",
+    "email": "julien@morel.dev",
+    "phone": "+33 6 12 34 56 78",
+    "location": "Lyon, France"
+}
