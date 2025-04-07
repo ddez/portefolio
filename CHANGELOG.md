@@ -20,3 +20,9 @@
 		- création du dossier img
 		- création du dossier logos
 	-  Ajout de quelques données fictives dans les components demandés.
+2) 2025-04-07
+	-  components "Projets":
+		-  "map" de la donnée
+		- ajout d'illustrations  dans le dossier public
+		- ajout du dossier + componant "cards" (pour plus tard)
+		- fonctionnel, mais à améliorer (via component card)
