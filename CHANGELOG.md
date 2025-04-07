@@ -29,3 +29,5 @@
  3) 2025-04-07 #2
 	 - création du fichier src/data/siteData.json qui contiendra/centralisera les infos du site. Ce fichier sera chargé par App.jsx qui se chargera de dispatcher les données dans les différents components
 	 - amélioration du component accueil pour intégrer les données du JSON.
+4) 2025-04-07 #3
+	- Mise en forme de base pour les components demandés 

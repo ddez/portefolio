@@ -34,8 +34,22 @@ const education = [
 const Formations = () => {
     return (
         <>
-            <div>
-                <h2>Formations</h2>
+            <div className="container">
+                <div className="row">
+                    <div className="col-12">
+                        <h2>Formations</h2>
+                    </div>
+                </div>
+                <div className="row">
+                    {education.map((formation, index) => (
+                        <div className="col-12" key={index}>
+                            <h3>{formation.title}</h3>
+                            <p>{formation.institution}</p>
+                            <p>{formation.year}</p>
+                            <p>{formation.description}</p>
+                        </div>
+                    ))}
+                </div>
             </div>
         </>
     );
