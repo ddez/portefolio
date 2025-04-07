@@ -13,7 +13,7 @@
 
 - [ ] Création des components
 
-    - [ ] Demandés :
+    - [x] Demandés :
         - [x] Accueil.jsx : Introduction, nom, fonction, message d’accueil.
 	        - [x] base
 	        - [x] data
@@ -41,12 +41,28 @@
     - [ ] Optionels:
         - [ ] Header.jsx : barre de navigation
             - [x] Mise en place rapide;
+            - [ ] liens
             - [ ] Améliorations.
 		- [ ] Projets
+			- [ ] 
 			- [ ] utiliser un component "card"
 			- [ ] ajouter des illustrations
+		- [x] Formations
+			- [x] data from app
+			- [x] mise en place d'une timeline
+		- [ ] Competences:
+			- [ ] data from app
+		- [ ] Contact:
+			- [ ] data from app
+		- [ ] Apropos:
+			- [ ] data from app
+		- [ ] Accueil
+			- [ ] data from app
 
 - [ ] Importer l'ensemble dans le fichier App.js
+	- [x] objectifs
+	- [ ] css
+	- [ ] data
 
 # DEPLOIEMENT SUR NETLIFY
 
