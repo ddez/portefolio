@@ -1,37 +1,49 @@
-const education = [
-    {
-      title: "Formation Développeur Web et Web Mobile",
-      institution: "OpenClassrooms",
-      year: "2020",
-      description: "Formation diplômante axée sur la création d’applications web responsives, l’intégration, le développement back-end et les bases de la gestion de projet."
-    },
-    {
-      title: "Certificat JavaScript Avancé",
-      institution: "Udemy",
-      year: "2019",
-      description: "Approfondissement des concepts modernes de JavaScript (ES6+), programmation fonctionnelle et asynchrone."
-    },
-    {
-      title: "Licence Professionnelle Communication Visuelle et Multimédia",
-      institution: "Université de Lyon 2",
-      year: "2013",
-      description: "Approche complète du design graphique, de l’ergonomie web et de la création de contenus numériques."
-    },
-    {
-      title: "Baccalauréat Littéraire",
-      institution: "Lycée Victor Hugo – Besançon",
-      year: "2008",
-      description: "Option arts plastiques, spécialité audiovisuel."
-    },
-    {
-      title: "Certificat Git & GitHub",
-      institution: "Codecademy",
-      year: "2021",
-      description: "Maîtrise des workflows Git, collaboration, gestion des branches et bonnes pratiques de versioning."
-    }
-  ];
+import '../styles/Formations.css';
   
-const Formations = () => {
+const Formations = ({ education}) => {
+    const alterne = (formation, index) => {
+        if (index % 2 === 0) {
+            return (
+              <>
+                <div className="timeline">
+                  <div className="icon"></div>
+                    <div className="date-content">
+                      <div className="date-outer">
+                        <span className="date">
+                          <span className="month">{formation.duration}</span>
+                          <span className="year">{formation.year}</span>
+                        </span>
+                      </div>
+                    </div>
+                    <div className="timeline-content">
+                        <h5 className="title">{formation.title} - {formation.institution}</h5>
+                        <p className="description">{formation.description}</p>
+                    </div>
+                </div>
+              </>
+            )
+        } else {
+            return (
+              <>
+                <div className="timeline"> 
+                  <div className="icon"></div>
+                  <div className="date-content">
+                    <div className="date-outer">
+                      <span className="date">
+                        <span className="month">{formation.duration}</span>
+                        <span className="year">{formation.year}</span>
+                      </span>
+                    </div>
+                  </div>
+                  <div className="timeline-content">
+                    <h5 className="title">{formation.title} - {formation.institution}</h5>
+                    <p className="description">{formation.description}</p>
+                  </div>
+                </div> 
+              </>
+            );
+        }
+    }
     return (
         <>
             <div className="container">
@@ -40,18 +52,17 @@ const Formations = () => {
                         <h2>Formations</h2>
                     </div>
                 </div>
-                <div className="row">
+            </div>
+            <div className="container">
+              <div className="main-timeline">
+                <div className="timeline">
                     {education.map((formation, index) => (
-                        <div className="col-12" key={index}>
-                            <h3>{formation.title}</h3>
-                            <p>{formation.institution}</p>
-                            <p>{formation.year}</p>
-                            <p>{formation.description}</p>
-                        </div>
+                        alterne(formation, index)
                     ))}
                 </div>
+              </div>
             </div>
-        </>
+          </>
     );
 };
 

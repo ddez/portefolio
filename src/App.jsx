@@ -1,3 +1,4 @@
+import './styles/App.css';
 import siteData from './data/siteData.json';
 import Accueil from "./components/Accueil.jsx";
 import Header from "./components/Header.jsx";
@@ -18,7 +19,7 @@ function App() {
         <hr />
         <APropos />
         <hr />
-        <Formations />
+        <Formations education={siteData.education} />
         <hr />
         <Competences />
         <hr />

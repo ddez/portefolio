@@ -31,3 +31,8 @@
 	 - amélioration du component accueil pour intégrer les données du JSON.
 4) 2025-04-07 #3
 	- Mise en forme de base pour les components demandés 
+5)  2025-04-07 #4
+	- intégration d'une timeline pour le component formations.
+	- ajout d'un css pour App.jsx
+	- mise à jour du fichier siteData.json pour intégrer les données de Formations.
+	- mise à jour de app.jsx pour diffuser le json vers Formations
