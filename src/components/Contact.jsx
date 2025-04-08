@@ -21,6 +21,7 @@ const Contact = ({ author }) => {
           </div>
         </div>
       </div>
+      
     </>
   );
 };

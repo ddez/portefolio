@@ -45,3 +45,4 @@
 	+ amélioration des cards projets
 	+ amélioration de la bannières d'accueil
 - 2025-04-08 #3 correction orthographe
+- 2025-04-08 #4 badges sur module competences + début footer

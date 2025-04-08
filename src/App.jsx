@@ -7,7 +7,7 @@ import APropos from "./components/APropos.jsx";
 import Formations from "./components/Formations.jsx";
 import Competences from "./components/Competences.jsx";
 import Contact from "./components/Contact.jsx";
-
+// import Footer from "./components/Footer.jsx";
 
 function App() {
   return (
@@ -24,6 +24,8 @@ function App() {
         <Competences skills={siteData.skills} />
         <hr />
         <Contact author={siteData.author} />
+        <hr />
+        {/* <Footer /> */}
       </div>
     </>
   );

@@ -43,31 +43,35 @@
       - [x] Mise en place rapide;
       - [ ] liens
       - [ ] Améliorations.
-    - [ ] Projets
-      - [ ]
-      - [ ] utiliser un component "card"
-      - [ ] ajouter des illustrations
+    - [x] Projets
+      - [x] utiliser un component "card"
+      - [x] ajouter des illustrations
     - [x] Formations
       - [x] data from app
       - [x] mise en place d'une timeline
-    - [ ] Competences:
-      - [ ] data from app
-    - [ ] Contact:
-      - [ ] data from app
-    - [ ] Apropos:
-      - [ ] data from app
-    - [ ] Accueil
-      - [ ] data from app
+    - [x] Competences:
+      - [x] data from app
+    - [x] Contact:
+      - [x] data from app
+    - [x] Apropos:
+      - [x] data from app
+    - [x] Accueil
+      - [x] data from app
 
 - [ ] Importer l'ensemble dans le fichier App.js
   - [x] objectifs
   - [ ] css
-  - [ ] data
+  - [x] data
 
 # DEPLOIEMENT SUR NETLIFY
 
-- [ ] En ligne sur : ...netlify.app
+- [x] En ligne sur : ...netlify.app
 
 # BUGS
 
 - [ ] L'animation sur la partie formation ne fonctionne pas bien
+
+# TODO
+
+- [ ] Utiliser une modale pour afficher les détails d'un projet
+- [ ] 
