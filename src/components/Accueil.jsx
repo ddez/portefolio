@@ -3,7 +3,7 @@ import Banner from "./Banner";
 
 const Accueil = ({ siteData }) => {
   const sTilte = siteData.siteTitle;
-  const sSubTitle = `${siteData.author.fullName} - ${siteData.author.authorInfos.authorFunction}`;  
+  const sSubTitle = `${siteData.author.fullName} - ${siteData.author.authorInfos.authorFunction}`;
   const sCaption = siteData.siteCaption;
 
   return (

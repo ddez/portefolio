@@ -1,12 +1,12 @@
 import Badge from "react-bootstrap/Badge";
-import Stack from 'react-bootstrap/Stack';
+import Stack from "react-bootstrap/Stack";
 
 const Comptences = ({ skills }) => {
   return (
     <>
-      <div className="container">
+      <div id="competences" className="container my-5 py-5">
         <div className="row">
-          <div className="col-12">
+          <div className="col-12 mb-5">
             <h2>Compétences</h2>
           </div>
         </div>

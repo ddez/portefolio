@@ -74,4 +74,4 @@
 # TODO
 
 - [ ] Utiliser une modale pour afficher les détails d'un projet
-- [ ] 
+- [ ]

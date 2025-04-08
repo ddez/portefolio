@@ -6,8 +6,7 @@ import Projets from "./components/Projets.jsx";
 import APropos from "./components/APropos.jsx";
 import Formations from "./components/Formations.jsx";
 import Competences from "./components/Competences.jsx";
-import Contact from "./components/Contact.jsx";
-// import Footer from "./components/Footer.jsx";
+import Footer from "./components/Footer.jsx";
 
 function App() {
   return (
@@ -16,16 +15,11 @@ function App() {
         <Header />
         <Accueil siteData={siteData} />
         <Projets arrProjets={siteData.arrProjets} />
-        <hr />
-        <APropos authorAbout={siteData.author.authorAbout} />
-        <hr />
+        <APropos author={siteData.author} />
         <Formations education={siteData.education} />
         <hr />
         <Competences skills={siteData.skills} />
-        <hr />
-        <Contact author={siteData.author} />
-        <hr />
-        {/* <Footer /> */}
+        <Footer author={siteData.author} />
       </div>
     </>
   );

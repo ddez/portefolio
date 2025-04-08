@@ -5,7 +5,7 @@ const Formations = ({ education }) => {
     if (index % 2 === 0) {
       return (
         <>
-          <div className="timeline">
+          <div id="formations" className="timeline">
             <div className="icon"></div>
             <div className="date-content">
               <div className="date-outer">
@@ -50,14 +50,12 @@ const Formations = ({ education }) => {
   };
   return (
     <>
-      <div className="container">
+      <div id="formations" className="container my-5 py-5">
         <div className="row">
-          <div className="col-12">
+          <div className="col-12 mb-5">
             <h2>Formations</h2>
           </div>
         </div>
-      </div>
-      <div className="container">
         <div className="main-timeline">
           <div className="timeline">
             {education.map((formation, index) => alterne(formation, index))}

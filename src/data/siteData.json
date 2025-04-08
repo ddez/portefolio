@@ -5,6 +5,8 @@
     "firstName": "Julien",
     "lastName": "Morel",
     "fullName": "Julien Morel",
+    "profileImage": "img/profil_640.webp",
+    "profileImageAlt": "Julien Morel - Développeur web",
     "authorInfos": {
       "authorFunction": "Développeur web",
       "tagline": "Développeur web passionné et créatif",
@@ -132,15 +134,21 @@
   "arrProjets": [
     {
       "title": "ArtConnect",
-      "featuredImage": "img/ArtConnect_640.jpg",
+      "featuredImage": "img/ArtConnect_640.webp",
       "description": "Plateforme de mise en relation entre artistes indépendants et lieux d'exposition. Gestion des profils, des événements et messagerie intégrée.",
-      "technologies": ["React", "Node.js", "MongoDB", "Express", "Tailwind CSS"],
+      "technologies": [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Express",
+        "Tailwind CSS"
+      ],
       "demoLink": "https://demo-artconnect.vercel.app",
       "codeLink": "https://github.com/username/artconnect"
     },
     {
       "title": "GreenPanier",
-      "featuredImage": "",
+      "featuredImage": "img/GreenPanier_640.webp",
       "description": "Site e-commerce pour une coopérative bio locale, avec commande en ligne, espace adhérent et gestion des producteurs.",
       "technologies": ["WordPress", "WooCommerce", "PHP", "ACF", "CSS"],
       "demoLink": "https://greenpanier-demo.fr",
@@ -148,7 +156,7 @@
     },
     {
       "title": "TimeTrackr",
-      "featuredImage": "img/TimeTrackr_640.jpg",
+      "featuredImage": "img/TimeTrackr_640.webp",
       "description": "Application web de suivi du temps pour freelances, avec génération de rapports et export PDF des temps de travail.",
       "technologies": ["Vue.js", "Firebase", "Chart.js", "SCSS"],
       "demoLink": "https://timetrackr.app",
@@ -156,7 +164,7 @@
     },
     {
       "title": "DocuFlow",
-      "featuredImage": "img/DocuFlow_640.jpg",
+      "featuredImage": "img/DocuFlow_640.webp",
       "description": "Outil de gestion documentaire interne pour PME, avec authentification, tri, recherche plein texte et gestion des accès par rôles.",
       "technologies": ["Laravel", "Blade", "MySQL", "Bootstrap"],
       "demoLink": "https://docuflow-demo.fr",
@@ -164,7 +172,7 @@
     },
     {
       "title": "Portfolio V1",
-      "featuredImage": "img/PortfolioV1_640.jpg",
+      "featuredImage": "img/PortfolioV1_640.webp",
       "description": "Première version de mon portfolio, simple et statique, avec animations légères et navigation fluide.",
       "technologies": ["HTML", "CSS", "JavaScript"],
       "demoLink": "https://v1-portfolio.vercel.app",
