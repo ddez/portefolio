@@ -1,11 +1,5 @@
-const contactInfo = {
-    email: "contact@developpeurweb.dev",
-    phone: "+33 6 12 34 56 78",
-    location: "Lyon, France",
-    availability: "Disponible pour de nouveaux projets!"
-  };
   
-const Contact = () => {
+const Contact = ({author}) => {
     return (
         <>
             <div className="container">
@@ -16,12 +10,12 @@ const Contact = () => {
                 </div>
                 <div className="row">
                     <div className="col-6">
-                        <p>{contactInfo.email}</p>
-                        <p>{contactInfo.phone}</p>
-                        <p>{contactInfo.location}</p>
+                        <p>{author.authorContact.email}</p>
+                        <p>{author.authorContact.phone}</p>
+                        <p>{author.authorContact.location}</p>
                     </div>
                     <div className="col-6" style={{textAlign: "right", fontSize: "2em"}}>
-                        <p>{contactInfo.availability}</p>
+                        <p>{author.authorInfos.availability}</p>
                     </div>
                 </div>
             </div>

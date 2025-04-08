@@ -13,17 +13,17 @@ function App() {
     <>
       <div>
         <Header />
-        <Accueil siteTitle={siteData.siteTitle} author={siteData.author.fullName} authorFunction={siteData.authorFunction} />
+        <Accueil siteTitle={siteData.siteTitle} author={siteData.author}/>
         <hr />
-        <Projets />
+        <Projets arrProjets={siteData.arrProjets} />
         <hr />
-        <APropos />
+        <APropos authorAbout={siteData.author.authorAbout} />
         <hr />
         <Formations education={siteData.education} />
         <hr />
-        <Competences />
+        <Competences skills={siteData.skills} />
         <hr />
-        <Contact />
+        <Contact author={siteData.author} />
       </div>
     </>
   );

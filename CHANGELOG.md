@@ -36,3 +36,7 @@
 	- ajout d'un css pour App.jsx
 	- mise à jour du fichier siteData.json pour intégrer les données de Formations.
 	- mise à jour de app.jsx pour diffuser le json vers Formations
+6) 2025-04-07 #5
+	- MAJ fichier roadmap
+7) 2025-04-08 #1
+	- Rapatriement des data vers le fichier siteData.json  et implémentation via des props

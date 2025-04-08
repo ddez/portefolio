@@ -67,3 +67,7 @@
 # DEPLOIEMENT SUR NETLIFY
 
 - [ ] En ligne sur : ...netlify.app
+
+# BUGS
+
+- [ ] L'animation sur la partie formation ne fonctionne pas bien
