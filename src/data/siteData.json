@@ -140,7 +140,7 @@
     },
     {
       "title": "GreenPanier",
-      "featuredImage": "img/GreenPanier_640.jpg",
+      "featuredImage": "",
       "description": "Site e-commerce pour une coopérative bio locale, avec commande en ligne, espace adhérent et gestion des producteurs.",
       "technologies": ["WordPress", "WooCommerce", "PHP", "ACF", "CSS"],
       "demoLink": "https://greenpanier-demo.fr",
