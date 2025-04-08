@@ -1,34 +1,35 @@
 {
   "siteTitle": "Portfolio de Julien Morel",
+  "siteCaption": "👋 Bienvenue ! Développeur web passionné depuis plus de 10 ans, j’aime créer des sites performants, accessibles et pensés pour lesutilisateurs. Que ce soit pour un projet sur-mesure, un site WordPress optimisé ou une application web moderne, je mets mon savoir-faire au service de vos idées.",
   "author": {
     "firstName": "Julien",
     "lastName": "Morel",
     "fullName": "Julien Morel",
     "authorInfos": {
-        "authorFunction": "Développeur web",
-        "tagline": "Développeur web passionné et créatif",
-        "availability": "Disponible pour de nouveaux projets!"
+      "authorFunction": "Développeur web",
+      "tagline": "Développeur web passionné et créatif",
+      "availability": "Disponible pour de nouveaux projets!"
     },
     "authorContact": {
-        "email": "contact@developpeurweb.dev",
-        "phone": "+33 6 12 34 56 78",
-        "location": "Lyon, France"
+      "email": "contact@developpeurweb.dev",
+      "phone": "+33 6 12 34 56 78",
+      "location": "Lyon, France"
     },
     "authorAbout": [
-        {
-            "title": "En bref",
-            "description": "Développeur web de 35 ans, artisan du code depuis plus d’une décennie. Navigue avec aisance entre front-end élégant et back-end robuste, toujours un café à la main et une idée de refacto en tête. Curieux insatiable, passionné par les belles interfaces autant que par les bases de données bien pensées. Il ne code pas seulement des sites : il construit des expériences, pixel après pixel."
-        },
-        {
-            "title": "Motivations",
-            "description": "Ce qui le pousse à coder chaque jour, c’est le plaisir de résoudre des problèmes concrets et de donner vie à des idées. Il aime transformer des maquettes figées en interfaces vivantes, créer des outils utiles, fluides, et accessibles. Ce n’est pas juste une question de code — c’est le goût du travail bien fait, le défi technique, et l’envie constante d’apprendre. Ce développeur cherche à évoluer dans un environnement où la créativité a sa place, où le partage de connaissances est une valeur, et où chaque ligne de code fait avancer un projet qui a du sens."
-        },
-        {
-            "title": "Parcours",    
-            "description": "Après un bac littéraire et quelques années dans la communication visuelle, il découvre le code presque par hasard, en voulant créer un site pour une amie artiste. C’est le déclic. Fasciné par la logique, la liberté créative et la puissance du web, il se forme en autodidacte, enchaîne les projets perso, puis valide ses compétences avec une formation intensive en développement web. Il débute comme intégrateur dans une petite agence, apprend vite, passe au développement full-stack et enchaîne les missions variées : sites e-commerce, plateformes de réservation, dashboards métiers... Curieux et autonome, il n’a jamais cessé de monter en compétences : JavaScript, PHP, WordPress, React, Node.js, API REST… chaque techno devient une nouvelle corde à son arc. Aujourd’hui, fort de 10 ans d’expérience, il cherche à mettre son expertise au service de projets utiles, éthiques ou innovants, où il peut conjuguer sens du détail, efficacité technique et créativité."
-        }
+      {
+        "title": "En bref",
+        "description": "Développeur web de 35 ans, artisan du code depuis plus d’une décennie. Navigue avec aisance entre front-end élégant et back-end robuste, toujours un café à la main et une idée de refacto en tête. Curieux insatiable, passionné par les belles interfaces autant que par les bases de données bien pensées. Il ne code pas seulement des sites : il construit des expériences, pixel après pixel."
+      },
+      {
+        "title": "Motivations",
+        "description": "Ce qui le pousse à coder chaque jour, c’est le plaisir de résoudre des problèmes concrets et de donner vie à des idées. Il aime transformer des maquettes figées en interfaces vivantes, créer des outils utiles, fluides, et accessibles. Ce n’est pas juste une question de code — c’est le goût du travail bien fait, le défi technique, et l’envie constante d’apprendre. Ce développeur cherche à évoluer dans un environnement où la créativité a sa place, où le partage de connaissances est une valeur, et où chaque ligne de code fait avancer un projet qui a du sens."
+      },
+      {
+        "title": "Parcours",
+        "description": "Après un bac littéraire et quelques années dans la communication visuelle, il découvre le code presque par hasard, en voulant créer un site pour une amie artiste. C’est le déclic. Fasciné par la logique, la liberté créative et la puissance du web, il se forme en autodidacte, enchaîne les projets perso, puis valide ses compétences avec une formation intensive en développement web. Il débute comme intégrateur dans une petite agence, apprend vite, passe au développement full-stack et enchaîne les missions variées : sites e-commerce, plateformes de réservation, dashboards métiers... Curieux et autonome, il n’a jamais cessé de monter en compétences : JavaScript, PHP, WordPress, React, Node.js, API REST… chaque techno devient une nouvelle corde à son arc. Aujourd’hui, fort de 10 ans d’expérience, il cherche à mettre son expertise au service de projets utiles, éthiques ou innovants, où il peut conjuguer sens du détail, efficacité technique et créativité."
+      }
     ]
-  },  
+  },
   "education": [
     {
       "title": "Formation Développeur Web et Web Mobile",
@@ -131,7 +132,7 @@
   "arrProjets": [
     {
       "title": "ArtConnect",
-      "featuredImage": "",
+      "featuredImage": "img/ArtConnect_640.jpg",
       "description": "Plateforme de mise en relation entre artistes indépendants et lieux d'exposition. Gestion des profils, des événements et messagerie intégrée.",
       "technologies": ["React", "Node.js", "MongoDB", "Express", "Tailwind CSS"],
       "demoLink": "https://demo-artconnect.vercel.app",
@@ -139,7 +140,7 @@
     },
     {
       "title": "GreenPanier",
-      "featuredImage": "",
+      "featuredImage": "img/GreenPanier_640.jpg",
       "description": "Site e-commerce pour une coopérative bio locale, avec commande en ligne, espace adhérent et gestion des producteurs.",
       "technologies": ["WordPress", "WooCommerce", "PHP", "ACF", "CSS"],
       "demoLink": "https://greenpanier-demo.fr",
@@ -147,7 +148,7 @@
     },
     {
       "title": "TimeTrackr",
-      "featuredImage": "",
+      "featuredImage": "img/TimeTrackr_640.jpg",
       "description": "Application web de suivi du temps pour freelances, avec génération de rapports et export PDF des temps de travail.",
       "technologies": ["Vue.js", "Firebase", "Chart.js", "SCSS"],
       "demoLink": "https://timetrackr.app",
@@ -155,7 +156,7 @@
     },
     {
       "title": "DocuFlow",
-      "featuredImage": "",
+      "featuredImage": "img/DocuFlow_640.jpg",
       "description": "Outil de gestion documentaire interne pour PME, avec authentification, tri, recherche plein texte et gestion des accès par rôles.",
       "technologies": ["Laravel", "Blade", "MySQL", "Bootstrap"],
       "demoLink": "https://docuflow-demo.fr",
@@ -163,7 +164,7 @@
     },
     {
       "title": "Portfolio V1",
-      "featuredImage": "",
+      "featuredImage": "img/PortefolioV1_640.jpg",
       "description": "Première version de mon portfolio, simple et statique, avec animations légères et navigation fluide.",
       "technologies": ["HTML", "CSS", "JavaScript"],
       "demoLink": "https://v1-portfolio.vercel.app",

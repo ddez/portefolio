@@ -1,10 +1,10 @@
 :root {
-    /* Begin main pallert */ 
-    --background-color: #f7f7f7;
-    --paynes-gray: #646e78ff;
-    --cadet-gray: #8d98a7ff;
-    --wheat: #ead4aeff;
-    --bittersweet-shimmer: #c83e4dff;
-    --dark-purple: #31081fff;
-    /* End main pallert */
+  /* Begin main pallert */
+  --background-color: #f7f7f7;
+  --paynes-gray: #646e78ff;
+  --cadet-gray: #8d98a7ff;
+  --wheat: #ead4aeff;
+  --bittersweet-shimmer: #c83e4dff;
+  --dark-purple: #31081fff;
+  /* End main pallert */
 }

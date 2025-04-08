@@ -1,5 +1,5 @@
-import './styles/App.css';
-import siteData from './data/siteData.json';
+import "./styles/App.css";
+import siteData from "./data/siteData.json";
 import Accueil from "./components/Accueil.jsx";
 import Header from "./components/Header.jsx";
 import Projets from "./components/Projets.jsx";
@@ -8,13 +8,13 @@ import Formations from "./components/Formations.jsx";
 import Competences from "./components/Competences.jsx";
 import Contact from "./components/Contact.jsx";
 
+
 function App() {
   return (
     <>
       <div>
         <Header />
-        <Accueil siteTitle={siteData.siteTitle} author={siteData.author}/>
-        <hr />
+        <Accueil siteData={siteData} />
         <Projets arrProjets={siteData.arrProjets} />
         <hr />
         <APropos authorAbout={siteData.author.authorAbout} />
