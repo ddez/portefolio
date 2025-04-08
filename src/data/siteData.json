@@ -164,7 +164,7 @@
     },
     {
       "title": "Portfolio V1",
-      "featuredImage": "img/PortefolioV1_640.jpg",
+      "featuredImage": "img/PortfolioV1_640.jpg",
       "description": "Première version de mon portfolio, simple et statique, avec animations légères et navigation fluide.",
       "technologies": ["HTML", "CSS", "JavaScript"],
       "demoLink": "https://v1-portfolio.vercel.app",

@@ -2,7 +2,7 @@ import Button from 'react-bootstrap/Button';
 import Badge from 'react-bootstrap/Badge';
 import Card from 'react-bootstrap/Card';
 import Stack from 'react-bootstrap/Stack';
-import Placeholder from "../../assets/placeholder.png";
+import Placeholder from "/img/placeholders/placeholder.png";
 
 function BasicCard({ projet }) {
   return (

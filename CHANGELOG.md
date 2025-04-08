@@ -1,4 +1,4 @@
-1. 2025-04-06
+-  2025-04-06
    + Diverses correction minimes
    + ajout dossier
      + components/
@@ -20,27 +20,28 @@
      + création du dossier img
      + création du dossier logos
    + Ajout de quelques données fictives dans les components demandés.
-1. 2025-04-07 #1
+- 2025-04-07 #1
    + components "Projets":
      + "map" de la donnée
      + ajout d'illustrations dans le dossier public
      + ajout du dossier + componant "cards" (pour plus tard)
      + fonctionnel, mais à améliorer (via component card)
-1. 2025-04-07 #2
+- 2025-04-07 #2
    + création du fichier src/data/siteData.json qui contiendra/centralisera les infos du site. Ce fichier sera chargé par App.jsx qui se chargera de dispatcher les données dans les différents components
    + amélioration du component accueil pour intégrer les données du JSON.
-1. 2025-04-07 #3
+- 2025-04-07 #3
    + Mise en forme de base pour les components demandés
-1. 2025-04-07 #4
+- 2025-04-07 #4
    + intégration d'une timeline pour le component formations.
    + ajout d'un css pour App.jsx
    + mise à jour du fichier siteData.json pour intégrer les données de Formations.
    + mise à jour de app.jsx pour diffuser le json vers Formations
-1. 2025-04-07 #5
+- 2025-04-07 #5
    + MAJ fichier roadmap
-1. 2025-04-08 #1
+- 2025-04-08 #1
    + Rapatriement des data vers le fichier siteData.json et implémentation via des props
-1) 2025-04-08 #2
+- 2025-04-08 #2
 	+ Prettification
 	+ amélioration des cards projets
 	+ amélioration de la bannières d'accueil
+- 2025-04-08 #3 correction orthographe
